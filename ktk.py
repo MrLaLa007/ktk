@@ -477,7 +477,7 @@ $$ |   $$ |$$ |      $$ |      $$ |  $$ |
     \33[1;35m╠══[FACEBOOK : Veer Khanoo & Khan LaLa║
     \33[1;33m╠══[CREATED  : MUDASSIR KHATTAK    ║
     \33[1;34m╠══[NETWORK  : \33[1;31mSPEED 4G \33[1;37m      ║
-    \33[1;37m╠══[TOOLS    : \33[1;31mFREE \33[1;37m          ║
+    \33[1;37m╠══[TOOLS    : \33[1;31mPAID \33[1;37m          ║
     \33[1;32m╠══[VERSION  : \33[1;31m3.0 \33[1;32m          ║
     \33[1;37m╚═════════════════════════════╝                 
 """
