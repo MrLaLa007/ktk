@@ -474,7 +474,6 @@ class Main:
 		self.cp = []
 		self.loop = 0
 		os.system("clear")
-		print(logo)
 		print("\n [1] File Cloning(BEST)")
 		print(" [2] Public Cloning")
 		print(" [3] Create File")
