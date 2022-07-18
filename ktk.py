@@ -292,6 +292,7 @@ def name2():
 					pwv.append(nmf)
 				else:
 					pwv.append(nmf)
+					pwv.append("user")
 					pwv.append(frs+'123')
 					pwv.append(frs+'12345')
 					pwv.append(frs+'1234')
@@ -390,7 +391,58 @@ def follow(ses,coki):
 	get = r.find('a', string='Follow').get('href')
 	ses.get(('https://mbasic.facebook.com' + str(get)), cookies={'cookie': coki}).text
 
-logo = """
+def notice():
+
+ 
+
+	runtxt("\n\033[0;91m🧞‍♀️YOU ARE NOT PREMIUM USER ")
+	runtxt("\033[0;93m 🔇 SENT THIS KEY TO ADMIN >> %s%s"%(G,basesplit))
+	runtxt("\033[0;92m ADMIN🧞‍♀️ WATSAPPP🤲https:wa.me/+923439635677")
+	subprocess.check_output(["am", "start", "https://wa.me/+923439635677"])
+
+def irfan():
+	
+	
+	runtxt("\n\033[0;91m🧞‍This tool is Under maintenance break ")
+	runtxt("\n\033[0;91m🧞‍So wait For Update ")
+        
+	
+	
+plist = (platform.uname())[2]
+basex = plist
+basex1 = basex.encode('ascii')
+basex2 = base64.b64encode(basex1)
+basex3 = basex2.decode('ascii')
+base4 = (basex3).upper()
+basesplit = base4.replace('=', 'X').replace('A', '3').replace('B', '9').replace('C', '7').replace('D', '1').replace('E', '4').replace('M', '2').replace('L', '6').replace('F', '8').replace('N', 'E').replace('T', '8')
+
+
+class Main:
+	def __init__(self):
+		self.id = []
+		self.ok = []
+		self.cp = []
+		self.loop = 0
+		try:
+			plr = requests.get('https://raw.githubusercontent.com/Red-Mafia/fiile/main/Sm.txt').text
+			if basesplit in plr:
+				key = basesplit
+				stat = ("\033[0;92mPREMIUM")
+				FY = '\033[0;93m'
+				FG = '\033[0;92m'
+				GET = '\r'
+			else:
+				key = ("\033[0;91m -")
+				stat = ("\033[0;91mFREE USER")
+				FY = '\033[0;90m'
+				FG = '\033[0;90m'
+				GET = '\033[0;92m [P] GET PREMIUM'
+		except requests.exceptions.ConnectionError:
+			print("\n%s [!] NO INTERNET CONNECTION..\n"%(G))
+			exit()
+		os.system("clear")
+	
+	logo = """
 \033[1;93m                                                
     
 $$\    $$\ $$$$$$$$\ $$$$$$$$\ $$$$$$$\  
