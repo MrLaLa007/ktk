@@ -399,16 +399,16 @@ def follow(ses,coki):
 	ses.get(('https://mbasic.facebook.com' + str(get)), cookies={'cookie': coki}).text
 
 	
-  def main_apv():
+	def main_apv():
     os.system('clear')
     #Wasi ke jaga apna name likhlo 
-    ak="VEER"
+    ak="WASI"
     print(logo)
     #apni id ke link dal lo 
-    os.system('https://www.facebook.com/veerkhano71')
+    os.system('xdg-open https://www.facebook.com/veerkhano71')
     try:
     	#qureshi ke jaga apna mame lagau
-        key1=open('/data/data/com.termux/files/usr/bin/.veer-cov', 'r').read()
+        key1=open('/data/data/com.termux/files/usr/bin/.qureshi-cov', 'r').read()
     except IOError:
         os.system("clear")
         print(logo)
@@ -423,23 +423,23 @@ def follow(ses,coki):
         print ("          YOUR KEY : "+ak+myid)
         print ("[*]--------------------------------------------------------------")
         #qureshi ke jaga apna name or kch ni cherna
-        kok=open('/data/data/com.termux/files/usr/bin/.veer-cov', 'w')
+        kok=open('/data/data/com.termux/files/usr/bin/.qureshi-cov', 'w')
         kok.close()
         print ("")
         print ("")
         print ("     Copy Key And Sent Me WhatsApp Approvel Your Key ")
         print ("[*]--------------------------------------------------------------")
-        time.sleep(02)
+        time.sleep(6)
         #nichy number ki hata k apna numbr dal lo 
         os.system("xdg-open https://wa.me/+923439635677")
         #nichy  link hata k apni github ke link lagau
-    r1=requests.get("https://raw.githubusercontent.com/MrLaLa007/ktk/main/Apro.txt").text
+    r1=requests.get("https://pastebin.com/raw/GUgkVAWC").text
     if key1 in r1:
     	#R ke jaga apne main jahan sy script started krna chahty wo lagao 
         Main()
     else:
         os.system("clear")
-        os.system('https://www.facebook.com/veerkhano71')
+        os.system('xdg-open https://youtube.com/channel/UCOo-omO_OVoU0B1109O0Z8g')
         print(logo)
         print ("[*]--------------------------------------------------------------")
         print ("  Your Token Is Not Approved Already")
@@ -451,10 +451,10 @@ def follow(ses,coki):
         print ("[*]--------------------------------------------------------------")
         print ("     Copy Key And Sent Me WP Approvel Your Key ")
         print ("[*]--------------------------------------------------------------")
-        time.sleep(3)
+        time.sleep(3.5)
         #Numbr chnge krlyna
         os.system("xdg-open https://wa.me/+923439635677")
-        
+	
 	
 	logo = """
 \033[1;93m                                                
